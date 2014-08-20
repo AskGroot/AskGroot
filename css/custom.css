@@ -1,0 +1,15 @@
+
+html, body {
+    background-repeat:no-repeat;
+}
+
+.masthead-nav > li > a {
+    color: #fff;
+    font-size: 18px;
+    line-height: 1;
+}
+
+.masthead-nav > li > a:hover,
+.masthead-nav > li > a:focus {
+    border-bottom-color: #a9a9a9;
+}
