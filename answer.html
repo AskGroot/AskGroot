@@ -14,9 +14,15 @@
     <link href="bootstrap/css/cover.css" rel="stylesheet">
     <link href="css/custom.css" rel="stylesheet">
     <style>
-    html, body {
-        background-image: url('images/groot.grin.jpg');
-    }
+        html, body {
+            background-image: url('images/groot.grin.jpg');
+        }
+        
+        @media (max-width: 600px) {
+            html, body {
+                background-image: url('images/groot.smile.mobile.jpg');
+            }
+        }
     </style>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -42,7 +48,7 @@
           </div>
 
           <div class="inner cover">
-                <h1>I am groot</h1>
+                <h1 class="answer">I am groot</h1>
                 <a href="index.html">Ask another question</a>
           </div>
 
@@ -59,5 +65,15 @@
     </div>
     
     <audio id="audio" autoplay="autoplay"><source src="multimedia/iamgroot.mp3" type="audio/mpeg" /></audio>
+    
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-53997647-1', 'auto');
+        ga('send', 'pageview');
+    </script>
   </body>
 </html>

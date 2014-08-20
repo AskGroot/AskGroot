@@ -15,6 +15,7 @@
 
 html, body {
     background-repeat:no-repeat;
+    background-size: cover;
     font-family: 'convictionregular', Helvetica, sans-serif;
     font-size: 20px;
 }
@@ -28,9 +29,16 @@ html, body {
 .btn {
     font-size: 18px;
 }
+.answer {
+    font-size: 100px;
+}
+
+.question {
+    margin-top: 200px;
+}
 
 .masthead-nav > li > a {
-    color: #fff;
+  color: rgba(255,255,255,.85);
     font-size: 22px;
     line-height: 1;
 }
@@ -40,3 +48,10 @@ html, body {
     border-bottom-color: #a9a9a9;
 }
 
+.mastfoot  p {
+    font-size: 14px;
+}
+
+.mastfoot a {
+    color: inherit;
+}
