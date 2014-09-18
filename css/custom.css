@@ -55,3 +55,7 @@ html, body {
 .mastfoot a {
     color: inherit;
 }
+
+.calltoaction span {
+    box-sizing: content-box;
+}
